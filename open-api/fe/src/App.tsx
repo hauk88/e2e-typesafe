@@ -16,7 +16,7 @@ function App() {
     const { data } = await client.POST("/greeting", {
       body: { name: name },
     });
-    setGreeting(data?.greeting ?? "");
+    setGreeting(data?.greetings ?? "");
   };
 
   return (
