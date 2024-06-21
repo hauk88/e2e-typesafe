@@ -11,7 +11,7 @@
     "schema": "../be/gen_schema.sh && openapi-typescript ../be/openapi.json -o src/schema/schema.d.ts"
   },
   "dependencies": {
-    "openapi-fetch": "0.9.0",
+    "openapi-fetch": "^0.10.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
