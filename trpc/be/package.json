@@ -1,0 +1,17 @@
+{
+  "name": "be",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/cors": "^2.8.17"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@trpc/server": "^11.0.0-rc.417",
+    "cors": "^2.8.5",
+    "zod": "^3.23.8"
+  }
+}
