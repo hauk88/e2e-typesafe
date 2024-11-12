@@ -11,4 +11,8 @@ This is the backend for testing e2e typesafety using grpc
 
 ### Run
 
+For server:
 `cargo run --bin server`
+
+For client:
+`cargo run --bin client`

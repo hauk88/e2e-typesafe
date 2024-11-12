@@ -18,7 +18,7 @@ async fn main() -> Result<(), Box<dyn Error>> {
 
     let res = client.greeting(t_req).await?;
 
-    println!("Response: {:?}", res.get_ref().greeting);
+    println!("Response: {:?}", res.get_ref().greetings);
 
     return Ok(());
 }
